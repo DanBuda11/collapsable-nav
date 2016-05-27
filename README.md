@@ -1,4 +1,4 @@
-# Collapssable Nav
+# Collapsable Nav
 
 With the following features:
 
