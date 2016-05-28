@@ -1,6 +1,27 @@
 @import 'variables';
 
-body {
-  background: $light-grey;
-  background-image: url(../assets/orangecat.jpg);
+.navWide {
+	display: none;
+
+	a {
+		text-decoration: none;
+		margin-right: 1em;
+	}
+}
+
+.navNarrow {
+
+	a {
+		text-decoration: none;
+	}
+}
+
+@media (min-width: 400px) {
+	.navWide {
+		display: block;
+	}
+
+	.navNarrow {
+		display: none;
+	}
 }

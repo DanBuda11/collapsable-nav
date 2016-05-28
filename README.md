@@ -6,6 +6,7 @@ With the following features:
 * Collapsable for mobile breakpoints
 * Instructions in comments on how to modify
 * Can modify structure by simply uncommenting code
+* Built using webpack & React
 
 ### Why this?
 

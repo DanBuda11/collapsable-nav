@@ -3,16 +3,23 @@ import './../styles/main.scss';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-// import a module from another file.
-import tiy from './app.js';
-
-// Looks like the imported module was a function, because here we're executing it!
-tiy();
-
-const TestComponent = React.createClass({
+const NavComponent = React.createClass({
 	render: function() {
-		return <h1>Test~</h1>;
+		return (
+			<nav>
+				<div className="navWide">
+					<a href="#">WideLink 1</a>
+					<a href="#">Wide Link 2</a>
+					<a href="#">Wide Link 3</a>
+				</div>
+				<div className="navNarrow">
+					<a href="#">Narrow Link 1</a>
+					<a href="#">Narrow Link 2</a>
+					<a href="#">Narrow Link 3</a>
+				</div>
+			</nav>
+		);
 	}
 });
 
-ReactDOM.render(<TestComponent />, document.querySelector('main'));
+ReactDOM.render(<NavComponent />, document.querySelector('main'));
