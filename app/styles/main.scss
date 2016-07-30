@@ -1,3 +1,7 @@
+// To change the color scheme, change any of the color references in the
+// code below, or use preset variables in the _variable.scss file to
+// replace with presets. The navbar background & border, "hamburger" and
+// link color can all be changed.
 @import 'variables';
 
 nav {
@@ -5,14 +9,21 @@ nav {
 	width: 100%;
 	overflow: hidden;
 	padding: 1em;
+	border-bottom: 1px solid #000;
 
 	.navWide {
 		display: none;
+
+		// Adjust max-width to shrink or expand the total width of the links
+		// on wider screens.
 		max-width: 500px;
 		margin: 0 auto;
 
 		.wideDiv {
 			display: inline-block;
+
+			// If adding additional links, adjust the width below so the
+			// links remain centered on wider screens.
 			width: 31%;
 			text-align: center;
 
@@ -23,6 +34,9 @@ nav {
 		}
 	}
 
+	// Navbar is set to default with the "hamburger" and links on the left
+	// side of the screen. To move to the right of the screen, simply
+	// change the three "float: Left;" references to read "float: right;".
 	.navNarrow {
 
 		i {
@@ -48,6 +62,8 @@ nav {
 	}
 }
 
+// Adjust breakpoint as desired to select when the "hamburger" menu is
+// replaced by just the links.
 @media (min-width: 480px) {
 	
 	nav {
