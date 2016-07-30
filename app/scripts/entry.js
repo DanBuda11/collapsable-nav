@@ -2,35 +2,45 @@
 import './../styles/main.scss';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import $ from 'jquery';
 
 // Notes:
-// Make different NavComponents and comment them out with instructions
-// as to what each one specifically does.
-// 1. Left-side hambugrer
 // 2. Right-side hamburger
-// 3. Slide-down for both left- and right-side hamburgers
-// 4. Slide in fron the left/right for left/right hamburgers
-// Add bit of template code for someone to add additional links,
-// but if too many, won't look good when breakpoints expand.
+// Use the variables file to make some preset color schemes for the nav background
+// color, icons, and links
+// will need to adjust the % width of the links down if add more links & vice versa
 
+// Why do I need to add a margin to the burger & links when I put them on
+// the right side of the navbar?
 
 const NavComponent = React.createClass({
 	render: function() {
 		return (
 			<nav>
 				<div className="navWide">
-					<a href="#">Link 1</a>
-					<a href="#">Link 2</a>
-					<a href="#">Link 3</a>
+					<div className="wideDiv">
+						<a href="#">Link 1</a>
+					</div>
+					<div className="wideDiv">
+						<a href="#">Link 2</a>
+					</div>
+					<div className="wideDiv">
+						<a href="#">Link 3</a>
+					</div>
 				</div>
 				<div className="navNarrow">
-					<i className="fa fa-bars fa-2x"></i>
-					<a href="#">Link 1</a>
-					<a href="#">Link 2</a>
-					<a href="#">Link 3</a>
+					<i className="fa fa-bars fa-2x" onClick={this.burgerToggle}></i>
+					<div className="narrowLinks">
+						<a href="#" onClick={this.burgerToggle}>Link 1</a>
+						<a href="#" onClick={this.burgerToggle}>Link 2</a>
+						<a href="#" onClick={this.burgerToggle}>Link 3</a>
+					</div>
 				</div>
 			</nav>
 		);
+	},
+	burgerToggle: function() {
+		$('.narrowLinks').toggle();
 	}
 });
 
