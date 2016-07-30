@@ -19,14 +19,15 @@ const NavComponent = React.createClass({
 		return (
 			<nav>
 				<div className="navWide">
-					<a href="#">Wide Link 1</a>
-					<a href="#">Wide Link 2</a>
-					<a href="#">Wide Link 3</a>
+					<a href="#">Link 1</a>
+					<a href="#">Link 2</a>
+					<a href="#">Link 3</a>
 				</div>
 				<div className="navNarrow">
-					<a href="#">Narrow Link 1</a>
-					<a href="#">Narrow Link 2</a>
-					<a href="#">Narrow Link 3</a>
+					<i className="fa fa-bars fa-2x"></i>
+					<a href="#">Link 1</a>
+					<a href="#">Link 2</a>
+					<a href="#">Link 3</a>
 				</div>
 			</nav>
 		);

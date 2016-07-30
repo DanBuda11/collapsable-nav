@@ -1,18 +1,35 @@
 @import 'variables';
 
-.navWide {
-	display: none;
+nav {
+	background-color: #ccc;
+	width: 100%;
+	overflow: hidden;
+	padding: 1em;
 
-	a {
-		text-decoration: none;
-		margin-right: 1em;
+	.navWide {
+		display: none;
+
+		a {
+			text-decoration: none;
+			margin: 1em;
+		}
 	}
-}
 
-.navNarrow {
+	.navNarrow {
 
-	a {
-		text-decoration: none;
+		i {
+			float: left;
+			line-height: 5em;
+			margin: 1em;
+			text-align: left;
+			cursor: pointer;
+			vertical-align: middle;
+			color: #000;
+		}
+
+		a {
+			text-decoration: none;
+		}
 	}
 }
 
