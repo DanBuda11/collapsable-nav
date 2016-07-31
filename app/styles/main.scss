@@ -5,10 +5,20 @@
 @import 'variables';
 
 nav {
-	background-color: #ccc;
+	background-color: $grey;
 	overflow: hidden;
 	padding: 1em;
-	border-bottom: 1px solid #000;
+
+	a {
+		color: $black;
+	}
+
+	a:visited {
+		color: $black;
+	}
+
+	// Remove line below to get rid of navbar bottom border.
+	border-bottom: 1px solid $black;
 
 	.navWide {
 		display: none;
@@ -34,7 +44,7 @@ nav {
 		i {
 			float: left;
 			cursor: pointer;
-			color: #000;
+			color: $black;
 		}
 
 		.narrowLinks {
@@ -46,7 +56,6 @@ nav {
 				float: left;
 				clear: left;
 				padding: 0.5em 0;
-				color: #000;
 			}
 		}
 	}
