@@ -1,13 +1,28 @@
-# Collapsable Nav
+Alt-H1 Collapsable React Navbar
+======
+
+### Why this?
+
+Collapsable navbar templates such as Bootstrap exist but often include a lot of extra stuff that you have to remove if you just want something simpler. This is that something simpler. I wanted to build something extremely simple and easy to modify so that it can be used anything that just requires a simple navbar that collapses for a mobile screen.
 
 With the following features:
 
 * Responsive, simple navbar template
 * Collapsable for mobile breakpoints
-* Instructions in comments on how to modify
-* Can modify structure by simply uncommenting code
-* Built using webpack & React
+* Instructions in comments on how to modify & customize
+* Preset color variables
 
-### Why this?
+Built using:
 
-Collapsable navbar templates such as Bootstrap exist but often include a lot of extra stuff that you have to remove if you just want something simpler. This is that something simpler. I wanted to build something extremely simple and easy to modify so that it can be used anything that just requires a simple navbar that collapses for a mobile screen.
+* Webpack
+* React, ReactDOM
+* SASS
+* A dab of jQuery
+* Normalize CDN
+* Font Awesome CDN for "hamburger" icon
+
+Check it out here: [surge link]
+
+[surge link]: 
+
+
