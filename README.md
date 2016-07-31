@@ -1,4 +1,4 @@
-H1 Collapsable React Navbar
+Collapsable React Navbar
 ======
 
 ### Why this?
