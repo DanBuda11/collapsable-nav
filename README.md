@@ -1,4 +1,4 @@
-Alt-H1 Collapsable React Navbar
+H1 Collapsable React Navbar
 ======
 
 ### Why this?
@@ -11,6 +11,7 @@ With the following features:
 * Collapsable for mobile breakpoints
 * Instructions in comments on how to modify & customize
 * Preset color variables
+* Easy to add navbar component & SASS into any React project
 
 Built using:
 
