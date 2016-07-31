@@ -6,30 +6,22 @@
 
 nav {
 	background-color: #ccc;
-	width: 100%;
 	overflow: hidden;
 	padding: 1em;
 	border-bottom: 1px solid #000;
 
 	.navWide {
 		display: none;
-
-		// Adjust max-width to shrink or expand the total width of the links
-		// on wider screens.
-		max-width: 500px;
 		margin: 0 auto;
 
 		.wideDiv {
-			display: inline-block;
-
-			// If adding additional links, adjust the width below so the
-			// links remain centered on wider screens.
-			width: 31%;
 			text-align: center;
 
 			a {
 				text-decoration: none;
 				display: inline-block;
+				// Adjust padding to increase/decrease the space between links.
+				padding: 0 2em;
 			}
 		}
 	}
@@ -43,7 +35,6 @@ nav {
 			float: left;
 			cursor: pointer;
 			color: #000;
-			margin-right: 1em;
 		}
 
 		.narrowLinks {
@@ -56,7 +47,6 @@ nav {
 				clear: left;
 				padding: 0.5em 0;
 				color: #000;
-				margin-right: 2em;
 			}
 		}
 	}

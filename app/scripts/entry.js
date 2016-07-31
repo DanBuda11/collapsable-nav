@@ -5,10 +5,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import $ from 'jquery';
 
-// Notes:
-// Use the variables file to make some preset color schemes for the nav background
-// color, icons, and links
-
 const NavComponent = React.createClass({
 	render: function() {
 		return (
@@ -16,11 +12,7 @@ const NavComponent = React.createClass({
 				<div className="navWide">
 					<div className="wideDiv">
 						<a href="#">Link 1</a>
-					</div>
-					<div className="wideDiv">
 						<a href="#">Link 2</a>
-					</div>
-					<div className="wideDiv">
 						<a href="#">Link 3</a>
 					</div>
 				</div>
