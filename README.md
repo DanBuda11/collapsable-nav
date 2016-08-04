@@ -23,6 +23,7 @@ Built using:
 * Font Awesome CDN for "hamburger" icon
 
 Check it out here: [Link]
+
 Or for an HTML/CSS only version, [click here]
 
 [Link]: http://reactnav-danbuda.surge.sh/
