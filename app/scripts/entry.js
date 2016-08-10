@@ -1,5 +1,8 @@
 // See main.scss for customization instructions.
 
+// Add code to create npm install version
+
+
 import './../styles/main.scss';
 import React from 'react';
 import ReactDOM from 'react-dom';
