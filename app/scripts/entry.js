@@ -1,7 +1,21 @@
 // See main.scss for customization instructions.
 
 // Add code to create npm install version
+const React = require('react');
+const CollapsableNav = require('collapsable-nav');
+module.exports = React.createClass({
+	render: function() {
+		return (
+			// And then in here goes the JSX/HTML
+		);
+	}
+});
 
+// Stack Overflow link:
+// http://stackoverflow.com/questions/32370994/how-to-pass-props-to-this-props-children
+
+
+// Code abouve will need to be tested
 
 import './../styles/main.scss';
 import React from 'react';
