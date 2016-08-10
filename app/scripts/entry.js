@@ -35,4 +35,4 @@ const NavComponent = React.createClass({
 	}
 });
 
-ReactDOM.render(<NavComponent />, document.querySelector('main'));
+ReactDOM.render(<NavComponent />, document.querySelector('navbar'));
