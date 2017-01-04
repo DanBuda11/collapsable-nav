@@ -24,10 +24,4 @@ Built using:
 * Normalize CDN
 * Font Awesome CDN for "hamburger" icon
 
-* Check it out here: [Link]
-* Or for an HTML/CSS only version, [click here]
-
-[Link]: http://reactnav-danbuda.surge.sh/
-[click here]: https://github.com/DanBuda11/navbar-html
-
-
+Check out a live version [here](http://reactnav-danbuda.surge.sh/) or for a working CodePen [here](http://codepen.io/danbuda/pen/mAVALa). For an HTML/CSS only version, [click here](https://github.com/DanBuda11/navbar-html).
