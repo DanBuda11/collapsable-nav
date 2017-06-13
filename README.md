@@ -13,7 +13,7 @@ With the following features:
 * Collapsable for mobile breakpoints
 * Instructions in comments on how to modify & customize
 * Preset color variables
-* Easy to add navbar component & SASS into any React project
+* Easy to add navbar component & Sass into any React project
 
 Built using:
 
