@@ -1,4 +1,4 @@
-Collapsable React Navbar
+Responsive React Navbar
 ======
 
 <kbd>![Image](react-nav.png)</kbd>
@@ -19,9 +19,8 @@ Built using:
 
 * Webpack
 * React, ReactDOM
-* SASS
-* A dab of jQuery
-* Normalize CDN
-* Font Awesome CDN for "hamburger" icon
+* Sass
+* Normalize.css
+* Font Awesome for "hamburger" icon
 
 Check out a live version [here](http://reactnav-danbuda.surge.sh/) or for a working CodePen [here](http://codepen.io/danbuda/pen/mAVALa). For an HTML/CSS only version, [click here](https://github.com/DanBuda11/navbar-html).
