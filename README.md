@@ -11,7 +11,6 @@ With the following features:
 - Responsive, simple navbar template
 - Collapsable for mobile breakpoints
 - Instructions in comments on how to modify & customize
-- Preset color variables
 - Easy to add navbar component & Sass into any React project
 
 Built using:
@@ -22,8 +21,14 @@ Built using:
 - Normalize.css
 - Font Awesome for "hamburger" icon
 
+### Version 2.0.0
+
+Built with React and ReactDOM versions 16.8.6. Uses updated React v16 syntax and a lot less code than the previous iteration of this navbar.
+
+View a live version of the project [here](https://react-nav.netlify.com/) or for a working CodePen [here](https://codepen.io/danbuda/pen/mYZPZp). For an HTML/CSS only version, [click here](https://github.com/DanBuda11/navbar-html).
+
 ### Version 1.0.0
 
-Built with early versions of React and React-DOM (15.0.1)
+Built with early versions of React and ReactDOM (15.0.1)
 
-Check out a live version [here](http://reactnav-danbuda.surge.sh/) or for a working CodePen [here](http://codepen.io/danbuda/pen/mAVALa). For an HTML/CSS only version, [click here](https://github.com/DanBuda11/navbar-html). To access the final build of this verion on GitHub you can [click here](https://github.com/DanBuda11/collapsable-nav/tree/15657cd4f3d908adaad022ab7184b723fb3b8594).
+Check out a live version [here](http://reactnav-danbuda.surge.sh/) or for a working CodePen [here](http://codepen.io/danbuda/pen/mAVALa). To access the final build of this verion on GitHub you can [click here](https://github.com/DanBuda11/collapsable-nav/tree/15657cd4f3d908adaad022ab7184b723fb3b8594).

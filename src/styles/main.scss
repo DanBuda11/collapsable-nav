@@ -1,0 +1,41 @@
+body {
+	font-family: sans-serif;
+}
+
+.toggle {
+  background: blue;
+  color: white;
+  padding: 0.5rem;
+  
+  // If the screen width is wider, the toggle icon isn't visible
+  @media (min-width: 350px) {
+    display: none;
+  }
+}
+
+.links {
+  // Links initially are not visible
+  display: none;
+  // When links are visible on smaller screens, they show up vertically in the dropdown
+  flex-direction: column;
+  background: blue;
+  padding: 1em;
+  
+  @media (min-width: 350px) {
+    display: flex;
+    // For wider screens, the links will be in a row with even space between each
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    margin: 0.5rem;
+  }
+}
+
+// When "open" class is added after clicking, the links will be shown using flexbox
+.links.open {
+    display: flex;  
+}
